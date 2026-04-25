@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiran N | Portfolio</title>
+    <!-- Google Fonts: Poppins & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Background Animation Elements -->
+    <div class="bg-gradient"></div>
+    <div class="bg-shape shape-1"></div>
+    <div class="bg-shape shape-2"></div>
+    <div class="bg-shape shape-3"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">KIRAN<span>N</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-controls">
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content reveal">
+            <h4>Hello, I'm</h4>
+            <h1>Kiran <span>N</span></h1>
+            <h2>BCA FRESHER</h2>
+            <p>I build interactive, modern, and high-performance applications. Passionate about software development and
+                creating meaningful digital experiences.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="Kiran_N_Resume (1).pdf" class="btn btn-secondary" target="_blank">
+                    <i class="fas fa-file-alt"></i> View Resume
+                </a>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/kirankumar66" target="_blank" aria-label="GitHub"><i
+                        class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/kiran-n-b9bab2401?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                    target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="hero-image reveal fade-right">
+            <div class="img-container">
+                <img src="IMG-20260403-WA0001.jpg.jpeg" alt="Kiran N Portrait">
+                <div class="img-glow"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="section-title reveal">About <span>Me</span></h2>
+        <div class="about-container reveal fade-up">
+            <div class="about-text">
+                <h3>Passionate Developer</h3>
+                <p>I am deeply passionate about software development and exploring new technologies. I thrive on
+                    problem-solving and continuously challenging myself to learn modern frameworks and design
+                    principles.</p>
+                <p>My goal is to build impactful software that solves real-world problems while delivering an
+                    exceptional user experience.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2 class="section-title reveal">My <span>Skills</span></h2>
+        <div class="skills-container">
+            <div class="skill-card reveal fade-up" style="transition-delay: 0.1s;" data-tilt data-tilt-glare data-tilt-max-glare="0.5">
+                <i class="fab fa-html5 skill-icon" style="color: #E34F26;"></i>
+                <h3>HTML</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="skill-card reveal fade-up" style="transition-delay: 0.2s;" data-tilt data-tilt-glare data-tilt-max-glare="0.5">
+                <i class="fab fa-css3-alt skill-icon" style="color: #1572B6;"></i>
+                <h3>CSS</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="skill-card reveal fade-up" style="transition-delay: 0.3s;" data-tilt data-tilt-glare data-tilt-max-glare="0.5">
+                <i class="fab fa-python skill-icon" style="color: #3776AB;"></i>
+                <h3>Python</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill-card reveal fade-up" style="transition-delay: 0.4s;" data-tilt data-tilt-glare data-tilt-max-glare="0.5">
+                <i class="fas fa-database skill-icon" style="color: #4479A1;"></i>
+                <h3>Database</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 75%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 class="section-title reveal">Featured <span>Projects</span></h2>
+        
+        <!-- Swiper -->
+        <div class="swiper mySwiper reveal fade-up">
+            <div class="swiper-wrapper">
+                <!-- Slide 1 -->
+                <div class="swiper-slide project-card" data-tilt data-tilt-glare data-tilt-max-glare="0.5">
+                    <i class="fas fa-plus-circle project-placeholder-icon"></i>
+                    <h3>Project 1 Coming Soon</h3>
+                    <p>This space is reserved for an upcoming web project.</p>
+                </div>
+                <!-- Slide 2 -->
+                <div class="swiper-slide project-card" data-tilt data-tilt-glare data-tilt-max-glare="0.5">
+                    <i class="fas fa-laptop-code project-placeholder-icon"></i>
+                    <h3>Project 2 Coming Soon</h3>
+                    <p>This space is reserved for an upcoming software application.</p>
+                </div>
+                <!-- Slide 3 -->
+                <div class="swiper-slide project-card" data-tilt data-tilt-glare data-tilt-max-glare="0.5">
+                    <i class="fas fa-mobile-alt project-placeholder-icon"></i>
+                    <h3>Project 3 Coming Soon</h3>
+                    <p>This space is reserved for a responsive mobile layout.</p>
+                </div>
+            </div>
+            <!-- Swiper Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Swiper Navigation -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title reveal">Get In <span>Touch</span></h2>
+        <div class="contact-container reveal fade-up">
+            <div class="contact-info">
+                <h3>Let's Connect!</h3>
+                <p>Feel free to reach out for collaborations, job opportunities, or just to say hi.</p>
+                <div class="contact-methods" style="flex-direction: column; gap: 1rem; align-items: center;">
+                    <div class="method">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:kirankumar63607@gmail.com">kirankumar63607@gmail.com</a>
+                    </div>
+                    <div class="method">
+                        <i class="fas fa-phone-alt"></i>
+                        <a href="tel:+918217346541">+91 8217346541</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-links-footer">
+            <a href="https://github.com/kirankumar66" target="_blank" aria-label="GitHub"><i
+                    class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/kiran-n-b9bab2401?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p>&copy; 2026 Kiran N. Built with <i class="fas fa-heart"></i> and Code.</p>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- VanillaTilt JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
